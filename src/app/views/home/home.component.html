@@ -11,17 +11,21 @@
             </mat-card-subtitle>
           </mat-card-title-group>
           <mat-card-content>
-            <p matLine>
-              <mat-form-field appearance="standard">
-                <mat-label>Qual seu nome?</mat-label>
-                <input matInput placeholder="Nome e Sobrenome">
-                <mat-icon matSuffix>face</mat-icon>
-                <mat-hint>Precisamos do seu nome e sobrenome</mat-hint>
-              </mat-form-field>
-            </p>
+            <div fxLayout="column">
+              <div fxFlex fxLayout="row" fxLayoutlign="center">
+                <div fxFlex="50%" fxLayout="column">
+                <mat-form-field appearance="standard">
+                  <mat-label>Qual seu nome?</mat-label>
+                  <input matInput placeholder="Nome e Sobrenome">
+                  <mat-icon matSuffix>face</mat-icon>
+                  <mat-hint>Precisamos do seu nome e sobrenome</mat-hint>
+                </mat-form-field>
+                </div>
+              </div>
+            </div>
           </mat-card-content>
           <mat-card-actions>
-            <button mat-raised-button matStepperNext>Próximo <mat-icon>chevron_right</mat-icon></button>
+            <button fxFlex="33" fxFlexAlign="end" mat-raised-button matStepperNext color="primary">Próximo <mat-icon>chevron_right</mat-icon></button>
           </mat-card-actions>
         </mat-card>
       </mat-step>
