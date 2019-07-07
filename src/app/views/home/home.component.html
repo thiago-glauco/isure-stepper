@@ -1,17 +1,34 @@
-<mat-horizontal-stepper linear labelPosition="bottom">
-  <mat-step label="Gostaríamos de conhecer você?">
-    <mat-card>
-      <mat-card-content>
-      <p>Olá</p>
-    
-      </mat-card-content>
-      <mat-card-actions>
-        <button mat-raised-button matStepperNext>Próximo <mat-icon>chevron_right</mat-icon></button>
-      </mat-card-actions>
-    </mat-card>
-  </mat-step>
-  <mat-step>
-  </mat-step>
-  <mat-step>
-  </mat-step>
-</mat-horizontal-stepper>
+<div fxLayout="row" fxLayoutAlign="center center" class="container">
+  <div fxFlex fxFlex.sm="80%" fxFlex.gt-sm="70%">
+    <mat-horizontal-stepper linear labelPosition="bottom" class="stepper">
+      <mat-step label="Gostaríamos de conhecer você?">
+        <mat-card>
+          <mat-card-title-group>
+            <mat-card-title>
+              Vamos nos conhecer melhor?
+            </mat-card-title>
+            <mat-card-subtitle>
+            </mat-card-subtitle>
+          </mat-card-title-group>
+          <mat-card-content>
+            <p matLine>
+              <mat-form-field appearance="standard">
+                <mat-label>Qual seu nome?</mat-label>
+                <input matInput placeholder="Nome e Sobrenome">
+                <mat-icon matSuffix>face</mat-icon>
+                <mat-hint>Hint</mat-hint>
+              </mat-form-field>
+            </p>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-raised-button matStepperNext>Próximo <mat-icon>chevron_right</mat-icon></button>
+          </mat-card-actions>
+        </mat-card>
+      </mat-step>
+      <mat-step>
+      </mat-step>
+      <mat-step>
+      </mat-step>
+    </mat-horizontal-stepper>
+  <div>
+<div>

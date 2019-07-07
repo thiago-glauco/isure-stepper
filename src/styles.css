@@ -1,2 +1,15 @@
 /* Add application styles & imports to this file! */
 @import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+body {
+  background-color: cornflowerblue;
+}
+
+.container {
+  height: 600px;
+}
+
+.stepper {
+  background-color: floralwhite;
+  box-shadow: 5px 5px 5px;
+}

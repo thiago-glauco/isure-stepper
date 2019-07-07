@@ -14,6 +14,7 @@ import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     MatButtonModule,
     MatIconModule,
     MatFormFieldModule,
+    MatInputModule
     ],
   declarations: [ AppComponent, HelloComponent, HomeComponent ],
   bootstrap:    [ AppComponent ]
