@@ -6,12 +6,12 @@ body {
 }
 
 .container {
- height: 100vh;
+ height: 90vh;
 }
 
 .stepper {
   background-color: aliceblue;
-  box-shadow: 3px 3px 3px;
+  box-shadow: 3px 3px 3px darkblue;
   height: 70vh;
   border-left: 10px solid darkblue;
 }
@@ -22,4 +22,8 @@ body {
 
 .card-content{
   height: 35vh;
+}
+
+.header {
+  box-shadow: 3px 3px 3px darkblue;
 }

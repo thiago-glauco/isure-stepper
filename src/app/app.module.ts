@@ -15,6 +15,8 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
+import { HeaderComponent } from './views/header/header.component';
+import { MatToolbarModule } from '@angular/material/toolbar'; 
 
 
 @NgModule({
@@ -28,9 +30,10 @@ import {MatInputModule} from '@angular/material/input';
     MatButtonModule,
     MatIconModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatToolbarModule,
     ],
-  declarations: [ AppComponent, HelloComponent, HomeComponent ],
+  declarations: [ AppComponent, HelloComponent, HomeComponent, HeaderComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
