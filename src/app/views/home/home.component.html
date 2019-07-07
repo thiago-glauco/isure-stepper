@@ -11,15 +11,22 @@
             </mat-card-subtitle>
           </mat-card-title-group>
           <mat-card-content class="card-content">
-            <div fxLayout="column">
-              <div fxFlex fxLayout="row" fxLayoutlign="center">
+            <hr>
+            <div fxLayout="column" fxLayoutAlign="center">
+              <div fxFlex fxLayout="row" fxLayoutAlign="center" fxLayoutGap="5vw">
                 <div fxFlex="50%" fxLayout="column">
-                <mat-form-field fxFlex appearance="standard">
-                  <mat-label>Qual seu nome?</mat-label>
-                  <input matInput placeholder="Nome e Sobrenome">
-                  <mat-icon matSuffix>face</mat-icon>
-                  <mat-hint>Precisamos saber o seu nome e sobrenome</mat-hint>
-                </mat-form-field>
+                  <mat-form-field fxFlex appearance="standard">
+                    <mat-label>Qual seu nome?</mat-label>
+                    <input matInput placeholder="Nome e Sobrenome">
+                    <mat-icon matSuffix>face</mat-icon>
+                    <mat-hint>Precisamos saber o seu nome e sobrenome</mat-hint>
+                  </mat-form-field>
+                </div>
+                <div fxFlex="50%" fxLayout="column" fxLayoutAlign="center center">
+                  <p fxFlex fxFill fxFlexAlign="end">Olá! Eu sou <b>Felipe</b>, seu assistente na <b>ISure</b>.<br>
+                  Eu preciso saber seu nome completo para poder ajudá-lo.<br>
+                  Não se preocupe, seus dados pessoais são protegidos e não serão compartilhados nem comercializados!</p>
+                  <img mat-card-lg-image src="https://firebasestorage.googleapis.com/v0/b/isureapp-17148.appspot.com/o/AppImages%2Favatar%2Favatar_happy.png?alt=media&token=36395865-9aee-4abe-92f4-f0e299819924">
                 </div>
               </div>
             </div>
@@ -40,22 +47,27 @@
             </mat-card-subtitle>
           </mat-card-title-group>
           <mat-card-content class="card-content">
-            <div fxLayout="column">
-              <div fxFlex fxLayout="row" fxLayoutlign="center">
+            <hr>
+            <div fxLayout="column" fxLayoutAlign="center">
+              <div fxFlex fxLayout="row" fxLayoutlign="center" fxLayoutGap="5vw">
                 <div fxFlex="50%" fxLayout="column">
-                <mat-form-field fxFlex appearance="standard">
-                  <mat-label>É necessário informar seu telefone.</mat-label>
-                  <input matInput placeholder="Celular ou fixo">
-                  <mat-icon matSuffix>phone</mat-icon>
-                  <mat-hint>DDD 0000 0000</mat-hint>
-                </mat-form-field>
-                 <mat-form-field fxFlex appearance="standard">
-                  <mat-label>Também precisamos do seu E-Mail</mat-label>
-                  <input matInput placeholder="email@dominio.com">
-                  <mat-icon matSuffix>email</mat-icon>
-                  <mat-hint>Um e-mail válido é necessário</mat-hint>
-                </mat-form-field>
+                  <mat-form-field fxFlex appearance="standard">
+                    <mat-label>É necessário informar seu telefone.</mat-label>
+                    <input matInput placeholder="Celular ou fixo">
+                    <mat-icon matSuffix>phone</mat-icon>
+                    <mat-hint>DDD 0000 0000</mat-hint>
+                  </mat-form-field>
+                  <mat-form-field fxFlex appearance="standard">
+                    <mat-label>Também precisamos do seu E-Mail</mat-label>
+                    <input matInput placeholder="email@dominio.com">
+                    <mat-icon matSuffix>email</mat-icon>
+                    <mat-hint>Um e-mail válido é necessário</mat-hint>
+                  </mat-form-field>
                 </div>
+                <div fxFlex="50%" fxLayout="column" fxLayoutAlign="center center">
+                  <p fxFlex fxFill fxFlexAlign="end">Como as informações de planos de saúde e seguros precisam ser rigidamente confirmadas e validadas, estas informações são muito importantes para que eu possa ajudá-lo.</p>
+                  <img mat-card-lg-image src="https://firebasestorage.googleapis.com/v0/b/isureapp-17148.appspot.com/o/AppImages%2Favatar%2Favatar_happy.png?alt=media&token=36395865-9aee-4abe-92f4-f0e299819924">
+              </div>
               </div>
             </div>
           </mat-card-content>
@@ -73,20 +85,24 @@
               Como podemos te ajudar?
             </mat-card-title>
             <mat-card-subtitle>
-              A ISure pode te ajudar com planos de saúde, benefícios corporativos e seguros!
             </mat-card-subtitle>
           </mat-card-title-group>
           <mat-card-content class="card-content">
+            <hr>
             <div fxLayout="column">
               <div fxFlex fxLayout="row" fxLayoutlign="center">
                 <div fxFlex="50%" fxLayout="column">
-                <mat-radio-group fxFlex aria-label="Select an option">
-                  <p matLine><mat-radio-button value="1"> <mat-icon>local_hospital</mat-icon> Planos de Saúde</mat-radio-button></p>
-                  <p matLine><mat-radio-button value="2"> <mat-icon>accessibility_new</mat-icon> Seguros de Vida</mat-radio-button></p>
-                  <p matLine><mat-radio-button value="3"> <mat-icon>hotel</mat-icon> Seguros de acidentes pessoais</mat-radio-button></p>
-                  <p matLine><mat-radio-button value="4"> <mat-icon>directions_car</mat-icon> Seguros para autos</mat-radio-button></p>
-                  <p matLine><mat-radio-button value="5"> <mat-icon>home</mat-icon> Seguros para imóveis</mat-radio-button></p>
-                </mat-radio-group>
+                  <mat-radio-group fxFlex aria-label="Select an option">
+                    <p matLine><mat-radio-button value="1"> <mat-icon>local_hospital</mat-icon> Planos de Saúde</mat-radio-button></p>
+                    <p matLine><mat-radio-button value="2"> <mat-icon>accessibility_new</mat-icon> Seguros de Vida</mat-radio-button></p>
+                    <p matLine><mat-radio-button value="3"> <mat-icon>hotel</mat-icon> Seguros de acidentes pessoais</mat-radio-button></p>
+                    <p matLine><mat-radio-button value="4"> <mat-icon>directions_car</mat-icon> Seguros para autos</mat-radio-button></p>
+                    <p matLine><mat-radio-button value="5"> <mat-icon>home</mat-icon> Seguros para imóveis</mat-radio-button></p>
+                  </mat-radio-group>
+                </div>
+                <div fxFlex="50%" fxLayout="column" fxLayoutAlign="center center">
+                  <p fxFlex fxFill fxFlexAlign="end">Muito obrigado por confiar em mim.<br>Agora, qual dos serviços ao lado você deseja contratar? Basta selecionar a opção e eu irei ajudá-lo a obter o orçamento e contratar o serviço desejado.</p>
+                  <img mat-card-lg-image src="https://firebasestorage.googleapis.com/v0/b/isureapp-17148.appspot.com/o/AppImages%2Favatar%2Favatar_happy.png?alt=media&token=36395865-9aee-4abe-92f4-f0e299819924">
                 </div>
               </div>
             </div>
