@@ -16,7 +16,8 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import { HeaderComponent } from './views/header/header.component';
-import { MatToolbarModule } from '@angular/material/toolbar'; 
+import { MatToolbarModule } from '@angular/material/toolbar';
+import {MatRadioModule} from '@angular/material/radio'; 
 
 
 @NgModule({
@@ -32,6 +33,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     MatFormFieldModule,
     MatInputModule,
     MatToolbarModule,
+    MatRadioModule,
     ],
   declarations: [ AppComponent, HelloComponent, HomeComponent, HeaderComponent ],
   bootstrap:    [ AppComponent ]
