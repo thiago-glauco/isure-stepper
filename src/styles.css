@@ -6,10 +6,20 @@ body {
 }
 
 .container {
-  height: 600px;
+ height: 100vh;
 }
 
 .stepper {
   background-color: aliceblue;
   box-shadow: 3px 3px 3px;
+  height: 70vh;
+  border-left: 10px solid darkblue;
+}
+
+.card {
+  height: 50vh;
+}
+
+.card-content{
+  height: 35vh;
 }
