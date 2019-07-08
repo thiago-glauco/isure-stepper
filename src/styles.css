@@ -12,7 +12,7 @@ body {
 .stepper {
   background-color: aliceblue;
   box-shadow: 3px 3px 3px darkblue;
-  height: 70vh;
+  height: 75vh;
   border-left: 10px solid darkblue;
 }
 
